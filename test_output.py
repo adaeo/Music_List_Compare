@@ -5,7 +5,7 @@ def arraysum(arr):
   return sum(arr)
 
 # Get CLI arguments and parse to json
-data = json.loads(sys.args[1])
+data = json.loads(sys.argv[1])
 
 # Get required field from data
 array = data['array']
